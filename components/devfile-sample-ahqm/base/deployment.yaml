@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ahqm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0037-tenant/ci10t-777-0037-app/devfile-sample-ahqm@sha256:a6712155c911cf9b24e8e4751f5e13c94337909b03fdfffd25e5ea018845c158
         name: my-nodejs
         ports:
         - containerPort: 3001
